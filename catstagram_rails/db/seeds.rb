@@ -1,0 +1,60 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+#
+# Examples:
+#
+#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+#   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Cat.create([
+		{
+			title: "Synchronized waking up",
+			url: "http://i.imgur.com/39yXnyh.gif",
+			likes: 305
+		},
+		{
+			title: "From under the sofa",
+			url: "http://i.imgur.com/Bz0AsI6.gif",
+			likes: 185
+		},
+		{
+			title: "What I have to deal with on a daily basis",
+			url: "http://i.imgur.com/MCmdIbF.gif",
+			likes: 65
+		},
+		{
+			title: "Durr, Bark woof",
+			url: "https://i.imgur.com/mr4egM3.gif",
+			likes: 49
+		},
+		{
+			title: "I'm not very smart",
+			url: "http://i.imgur.com/hJbijPN.gif",
+			likes: 79
+		},
+		{
+			title: "I like humans",
+			url: "http://forgifs.com/gallery/d/217571-1/Cat-kiss-nuzzle.gif",
+			likes: 29
+		},
+		{
+			title: "Oh no!",
+			url: "http://forgifs.com/gallery/d/216557-1/Cat-eyes-dilate.gif",
+			likes: 68
+		},
+		{
+			title: "Mommy wants to sleep.",
+			url: "http://i.imgur.com/6yhkPFk.gif",
+			likes: 69
+		},
+		{
+			title: "I'm the king",
+			url: "http://i.imgur.com/E2wNiC6.gif",
+			likes: 69
+		},
+		{
+			title: "I'm the king",
+			url: "http://i.imgur.com/72zRVtC.gif",
+			likes: 89
+		}
+	])
